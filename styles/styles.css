@@ -1,0 +1,61 @@
+/* ==========================================================
+           --------- IMPORTED FONT-----------
+============================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* =========================================================
+            ---------COMMON STYLES-----------
+============================================================ */
+*{
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+/* =========================================================
+                ---------MEDIA QUERIES-----------
+============================================================ */
+
+
+/* ==============FOR LARGE DEVICES (Laptop)================= */
+
+@media screen and (max-width:992px ){
+   
+    p{
+        color:green;
+    }
+
+}
+
+
+
+
+/* =============FOR MEDIUM DEVICES (Tablet)================= */
+
+@media screen and (max-width:768px) {
+    p{
+        color: blue;
+    }
+
+
+}
+
+
+
+/* =============FOR SMALL DEVICES (Smart Phone)============== */
+
+@media screen and (max-width:600px) {
+    p{
+        color: rgb(255, 136, 0);
+    }
+
+}
