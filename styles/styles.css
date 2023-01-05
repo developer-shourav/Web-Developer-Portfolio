@@ -56,7 +56,60 @@ nav a{
     padding: 10px 16px;
     border-radius: 5px;
 }
+/* ========================================================
+       ---------HERO SECTION'S STYLES-----------
+=========================================================== */
+.hero-area{
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    padding-top: 3rem;
+   /*  background-image: url("../images/header_bg.png");
+    background-repeat:no-repeat;
+    background-position: bottom right; */
+   
+   
+}
+.hero-logo{
+   text-align: center;
+   margin-right: 30px;
+   
+}
+.hero-logo > img{
+    width: 45%;
+    margin-top: -100px;
 
+}
+.hero-item:first-child{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.hero-item:nth-child(2){
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+.hero-item:last-child{
+    grid-column-start: 7;
+    grid-column-end: -1;
+    
+}
+.developer-img{
+    background-image: url("../images/header_bg.png");
+    background-repeat:no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+    text-align: right;
+    padding-right: 40px;
+    
+    
+}
+.developer-img > img{
+    width: 75%;
+    margin-bottom: -5px;
+    
+}
 /* ========================================================
                 ---------MEDIA QUERIES-----------
 =========================================================== */
