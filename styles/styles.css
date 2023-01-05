@@ -1,7 +1,7 @@
 /* ========================================================
            --------- IMPORTED FONT-----------
 =========================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 
 /* ========================================================
@@ -20,6 +20,7 @@ body{
 
     
 }
+.icons{color: black;}
 header{
     padding-top: 50px;
     background: #FFF8F3;
@@ -47,14 +48,45 @@ nav a{
 }
 .nav-item > ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
-.hire-me-btn, .hire-me-btn a{
+.primary-btn{
     background-color: #FD6E0A;
     color:#fff;
-    padding: 10px 16px;
+    padding: 15px 26px;
     border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    font-weight: bold;
+    letter-spacing: .5px;
+    font-size: 15px;
+    transition: all .2s ease;
+}
+.primary-btn:hover{
+    color: #FD6E0A;
+    background-color:transparent;
+    border: 2px solid #FD6E0A;
+}
+.primary-btn:hover > a{
+    color: #FD6E0A;
+}
+.secondary-btn{
+    color: #FD6E0A;
+    background-color:transparent;
+    padding: 15px 26px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    font-weight: bold;
+    letter-spacing: .5px;
+    font-size: 15px;
+    transition: all .2s ease;
+}
+.secondary-btn:hover{
+    background-color: #FD6E0A;
+    color:#fff;
+}
+.primary-btn > a{
+    color: #fff;
 }
 /* ========================================================
        ---------HERO SECTION'S STYLES-----------
@@ -66,12 +98,33 @@ nav a{
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
     padding-top: 3rem;
-   /*  background-image: url("../images/header_bg.png");
-    background-repeat:no-repeat;
-    background-position: bottom right; */
-   
+
+}
+.site-logo{
+    margin-left: 50px;
+}
+.hero-discription{
+    margin-top: -4.5rem;
+}
+.hero-discription > h3{
+    font-weight: 600;
+    font-size: 35px;
+    color: #474747;
    
 }
+.hero-discription > h1{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.hero-discription > p{
+    font-size: 18px;
+    color: #646464;
+    margin-bottom: 20px;
+}
+
 .hero-logo{
    text-align: center;
    margin-right: 30px;
