@@ -20,7 +20,7 @@ body{
 
     
 }
-.icons{color: black;}
+
 header{
     padding-top: 50px;
     background: #FFF8F3;
@@ -51,6 +51,9 @@ nav a{
     justify-content: space-between;
     align-items: center;
 }
+/* ========================================================
+           ---------Buttons STYLES-----------
+=========================================================== */
 .primary-btn{
     background-color: #FD6E0A;
     color:#fff;
@@ -103,23 +106,23 @@ nav a{
 .site-logo{
     margin-left: 50px;
 }
-.hero-discription{
+.hero-description{
     margin-top: -4.5rem;
 }
-.hero-discription > h3{
+.hero-description > h3{
     font-weight: 600;
     font-size: 35px;
     color: #474747;
    
 }
-.hero-discription > h1{
+.hero-description > h1{
     font-style: normal;
     font-weight: bolder;
     font-size: 50px;
     color: #181818;
     margin-bottom: 20px;
 }
-.hero-discription > p{
+.hero-description > p{
     font-size: 18px;
     color: #646464;
     margin-bottom: 20px;
@@ -163,6 +166,41 @@ nav a{
     margin-bottom: -5px;
     
 }
+/* ========================================================
+     ---------About section's Styles -----------
+=========================================================== */
+.about-section{
+    padding: 10rem 0rem;
+}
+.about{
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+.about > h2{
+   margin-bottom: 30px;
+   font-size: 40px;
+}
+.about > p{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #646464;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+.text-color-light{
+    color:#646464;
+    margin-bottom: 10px;
+}
+.text-color-bold{
+    font-weight: bold;
+}
+
+
 /* ========================================================
                 ---------MEDIA QUERIES-----------
 =========================================================== */
