@@ -290,6 +290,41 @@ nav a{
     color: #a1a1a1;
     
 }
+/* ========================================================
+      ---------Contact Section Style-----------
+=========================================================== */
+.contact-area{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    gap: 3rem;
+    padding: 5rem 0;
+}
+.contact-item{
+    width: 49%;
+}
+
+.contact-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #696868;
+    padding-right: 50px;
+}
+.contact-social{
+    display:flex;
+    margin: 20px auto;
+    gap: 2rem;
+}
+
+.input-style{
+    background-color: antiquewhite;
+    width: 100%;
+    border: 1px solid #fd6f0aee;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px auto;
+}
 
 /* ========================================================
                 ---------MEDIA QUERIES-----------
