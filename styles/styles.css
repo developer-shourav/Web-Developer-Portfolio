@@ -20,11 +20,15 @@ body{
 
     
 }
-
+ h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+ }
 header{
     padding-top: 50px;
     background: #FFF8F3;
 }
+
 /* ========================================================
             ---------NAV STYLES-----------
 =========================================================== */
@@ -177,10 +181,7 @@ nav a{
     width: 55%;
     margin: 0 auto;
 }
-.about > h2{
-   margin-bottom: 30px;
-   font-size: 40px;
-}
+
 .about > p{
     font-size: 16px;
     line-height: 25px;
@@ -211,10 +212,6 @@ nav a{
     width: 70%;
     margin: 0 auto;
 }
-.work > h2{
-   margin-bottom: 30px;
-   font-size: 40px;
-}
 
  .skill-text{
     font-size: 16px;
@@ -239,6 +236,60 @@ nav a{
     font-size: 15px;
     padding: 20px 20px 20px 0;
 }
+/* ========================================================
+     --------Resume Summary section's Styles ----------
+=========================================================== */
+.resume-summery-section{
+    width: 76%;
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+.resume-summery{
+    display: flex;
+    text-align: left;
+    gap: 1rem;
+}
+.summery-item{
+    margin: 4rem auto 3rem;
+}
+.summery-item > article{
+    padding-right: 4rem;
+    margin-bottom: 2rem;
+}
+.summery-item > article > h3{
+    font-size: 28px;
+    line-height: 41px;
+    color: #414141;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+.summery-item > article > h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+    margin-bottom: .4rem;
+}
+
+.summery-item > article > h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #696868;
+    margin-bottom: 1.3rem;
+}
+.summery-item > article > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #696868;
+    
+}
+.summery-item hr{
+    margin-bottom: 1.8rem;
+    color: #a1a1a1;
+    
+}
 
 /* ========================================================
                 ---------MEDIA QUERIES-----------
@@ -246,7 +297,7 @@ nav a{
 
 
 /* ==============FOR LARGE DEVICES (Laptop)================= */
-
+/* 
 @media screen and (max-width:992px ){
    
     p{
@@ -254,13 +305,13 @@ nav a{
     }
 
 }
-
+ */
 
 
 
 /* ============FOR MEDIUM DEVICES (Tablet)================= */
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     p{
         color: blue;
     }
@@ -268,13 +319,14 @@ nav a{
 
 }
 
-
+ */
 
 /* =============FOR SMALL DEVICES (Smart Phone)============== */
-
+/* 
 @media screen and (max-width:600px) {
     p{
         color: rgb(255, 136, 0);
     }
 
 }
+ */
